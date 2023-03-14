@@ -1,0 +1,66 @@
+.send-con{
+    width: 100%;
+    height: 100%;
+}
+
+.send-con-header{
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+}
+
+.send-con-content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.msg-content-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-content-con input , textarea{
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 8px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #d2cfcf;
+    outline: none;
+}
+
+.msg-content-con button{
+    width: 150px;
+    height: 40px;
+    background-color: #ff8e03;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .2s;
+    outline: none;
+}
+
+.msg-content-con button:hover{
+    background-color: #d37a0c;
+}
+
+#message-text textarea{
+    height: 200px;
+    resize: none;
+}
+
+.name-email{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name-email div input{
+    width: 80%;
+}

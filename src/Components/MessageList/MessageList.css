@@ -1,0 +1,98 @@
+.message-list-con{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.message-list-header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.message-list-content{
+    width: 100%;
+    padding: 10px 0;
+    height: 85%;
+    overflow-y: auto;
+}
+
+
+.message-list-content table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th , td{
+    padding: 5px;
+    border: 1px solid #d2cfcf;
+}
+
+
+.text-container{
+    width: 200px;
+}
+
+.text-container div{
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text-container div p{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#text-con-email{
+    direction: ltr;
+}
+
+#text-con-text {
+    width: 300px;
+}
+
+#text-con-text div button{
+    background-color: #ff8e03;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s;
+    padding: 5px 15px;
+}
+
+
+#text-con-text p{
+    width: 100px;
+}
+
+#text-con-text div button:hover{
+    background-color: #d37a0c;
+}
+
+.message-list-content table thead tr :nth-child(1){
+    max-width: 150px;
+}
+
+.message-list-content table thead tr :nth-child(2){
+    max-width: 100px;
+}
+
+.message-list-content table thead tr :nth-child(3){
+    max-width: 100px;
+}
+.message-list-content table tbody{
+    width: 100%;
+}
+
+.message-list-content table tbody tr td{
+   text-align: center;
+}
